@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Cormorant;
+    font-weight: 700;
+    src: local("Cormorant"), url("Cormorant-Bold"),
+    url("../fonts/cormorant-v11-latin_cyrillic-700.woff2") format("woff2"),
+    url("../fonts/cormorant-v11-latin_cyrillic-700.woff") format("woff");
+    font-display: swap;
+}
