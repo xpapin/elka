@@ -7,3 +7,13 @@
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
 }
+
+.header__logo{
+    justify-self: start;
+}
+.header__bavigation{
+    justify-self: center;
+}
+.header__consultation{
+    justify-self: end;
+}
