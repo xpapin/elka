@@ -32,3 +32,21 @@
 .navigation__link:hover {
     color: var(--main-bg-color);
 }
+
+@media (max-width: 1440px) {
+}
+
+@media (max-width: 1200px) {
+ }
+
+ @media (max-width: 1000px) {
+    .navigation {
+        display: none;
+    }
+ }
+
+ @media (max-width: 760px) {
+}
+
+ @media (max-width: 580px) {
+ }

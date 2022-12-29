@@ -53,10 +53,33 @@
 }
 
  @media (max-width: 1000px) {
+
+    .header {
+        padding: 20px 0;
+    }
+
+    .header__container {
+        grid-template-columns: repeat(3, 1fr); /* eqial 1fr 1fr 1fr */
+    }
+
+    .header__burger {
+        grid-row: 1;
+        grid-column: 1;
+        justify-self: start;
+    }
+
+    .header__logo {
+        grid-row: 1;
+        grid-column: 2;
+        justify-self: center;
+    }
+
     .header__consultation {
         padding: 8px 20px;
         font-size: 14px;
         border-radius: 6px;
+        grid-row: 1;
+        grid-column: 3;
     }
  }
 
