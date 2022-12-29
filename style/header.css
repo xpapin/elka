@@ -44,3 +44,26 @@
     outline-color: var(--second-color);
 }
 
+@media (max-width: 1440px) {
+    .header__consultation {
+        padding: 12px 30px;
+        font-size: 16px;
+        border-radius: 8px;
+    }
+}
+
+ @media (max-width: 1000px) {
+    .header__consultation {
+        padding: 8px 20px;
+        font-size: 14px;
+        border-radius: 6px;
+    }
+ }
+
+ @media (max-width: 580px) {
+    .header__consultation {
+        padding: 5px 14px;
+        font-size: 12px;
+        border-radius: 6px;
+    }
+ }

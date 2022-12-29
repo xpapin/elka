@@ -45,8 +45,9 @@ h1, h2 {
 }
 
 .container {
-    max-width: 1290px;
+    max-width: 1374px; /* 1290 + 42*2 for adapting */
     margin:0 auto;
+    padding: 0 42px; 
 }
 
 .hide {
@@ -70,4 +71,11 @@ button, input {
 
 button {
     cursor: pointer;
+}
+
+/* if sceen size less or eqial 1440px */
+@media (max-width: 1440px) {
+   .container {
+        padding: 0 42px;
+   }
 }
