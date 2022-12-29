@@ -51,8 +51,9 @@
 .hero__down-img {
     filter: drop-shadow(4px 7px 20px transparent);
     transition: filter 0.4s ease;
+    margin-bottom: 13px;
 }
 
 .hero__down:hover .hero__down-img {
-    filter: drop-shadow(4px 7px 20px #003227); 
+    filter: drop-shadow(4px 7px 20px var(--second-color)); 
 }
