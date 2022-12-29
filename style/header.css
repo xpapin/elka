@@ -12,7 +12,7 @@
 .header__logo{
     justify-self: start;
 }
-.header__bavigation{
+.header__navigation{
     justify-self: center;
 }
 .header__consultation {
@@ -60,6 +60,7 @@
 
     .header__container {
         grid-template-columns: repeat(3, 1fr); /* eqial 1fr 1fr 1fr */
+        gap: 38px;
     }
 
     .header__burger {
@@ -81,9 +82,23 @@
         grid-row: 1;
         grid-column: 3;
     }
+
+    .header__navigation {
+        grid-row: 2;
+        grid-column: 1/4; /* from 1 to 4 */
+    }
  }
 
  @media (max-width: 580px) {
+
+    .header {
+        padding-top: 16px;
+        padding-bottom: 20px;
+    }
+    .header__container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
     .header__consultation {
         padding: 5px 14px;
         font-size: 12px;

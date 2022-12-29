@@ -1,6 +1,7 @@
 .navigation__list {
     display: flex;
     gap: 50px;
+    justify-content: space-between;
 }
 
 .navigation__link {
@@ -34,6 +35,13 @@
 }
 
 @media (max-width: 1440px) {
+    .navigation__list {
+        gap: 20px;
+    }
+
+    .navigation__link {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -42,10 +50,41 @@
  @media (max-width: 1000px) {
     .navigation {
         display: none;
+        width: 100%;
+    }
+
+    .navigation_active {
+        display: block;
+    }
+
+    .navigation__item {
+        flex-basis: 146px;
+    }
+
+    .navigation__link {
+        display: block;
+        text-align: center;
+        width: 100%; /*max-content; */
+        border: 1px solid var(--trigger-color);
+        border-radius: 20px;
+        padding: 7px 8px;
+        font-size: 14px;
+    }
+
+    .navigation__link:before {
+        content:none;
     }
  }
 
  @media (max-width: 760px) {
+    .navigation__list {
+        flex-wrap: wrap;
+        gap: 8px 6px;
+    }
+
+    .navigation__item {
+        flex-basis: calc(50% - 6px); /* 2n menu items jump down, not one by one */
+    }
 }
 
  @media (max-width: 580px) {
