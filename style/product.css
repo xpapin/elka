@@ -15,3 +15,14 @@
 .product:nth-child(3n + 2) {
     background-color: var(--green-three-color);
 }
+
+/* "chess style", i.e reversed order of the product content */
+.product__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.product:nth-child(even) .product__container {
+    flex-direction: row-reverse;
+}
