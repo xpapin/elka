@@ -7,15 +7,7 @@
     font-display: swap;
 }
 
-:root {
-    --main-color: #fff;
-    --second-color:  #262626;
-    --green-one-color: #00654E;
-    --green-two-color: #006E55;
-    --green-three-color: #005844;
-    --main-bg-color: #005844;
-    --second-bg-color: #C0B487;
-    --trigger-color:#E6AB39;
+html {
     box-sizing: border-box;
 }
 
