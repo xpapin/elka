@@ -26,3 +26,51 @@
 .product:nth-child(even) .product__container {
     flex-direction: row-reverse;
 }
+
+.product__content {
+    padding-top: 56px;
+    max-width: 520px;
+}
+
+.product__title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    margin-bottom: 30px;
+}
+.product__features {
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    margin-bottom: 50px;
+}
+.product__description {
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+    margin-bottom: 70px;
+}
+
+.product__button-wrapper {
+    display: flex; /* buttons are placed close to each other - in one line */
+    align-items: center;
+    gap: 36px;
+}
+
+.product__button {
+    display: block;
+    padding: 14px;
+}
+
+.product__button-order {
+
+}
+
+.product__button-more {
+
+}
+
+.product__picture {
+
+}
