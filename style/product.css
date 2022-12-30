@@ -60,15 +60,45 @@
 
 .product__button {
     display: block;
-    padding: 14px;
+    padding: 14px 36px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: var(--main-color);
+    background-color: transparent;
+}
+
+.product__button:hover {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+    color: var(--main-bg-color);
+}
+
+.product__button:active {
+    background-color: var(--second-bg-color);
+    border-color: var(--second-bg-color);
+    color: var(--main-color);
 }
 
 .product__button-order {
+    background-color: var(--second-bg-color);
+}
 
+.product__button-order:focus {
+    outline: 2px solid var(--second-color);
+    border-color: transparent;
 }
 
 .product__button-more {
+    border-color: var(--second-bg-color);
+}
 
+.product__button-more:focus {
+    outline-color: var(--main-color);
+    border-color: transparent;
 }
 
 .product__picture {
